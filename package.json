@@ -1,6 +1,6 @@
 {
   "name": "say-mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MCP server that provides text-to-speech functionality for AI agents",
   "type": "module",
   "main": "dist/index.js",
