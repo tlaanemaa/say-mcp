@@ -14,7 +14,7 @@ const server = new McpServer({
 server.registerTool("speak",
     {
         title: "Speak to User",
-        description: "Speak directly to the user through text-to-speech. Use this tool to communicate audibly with the user - they will hear your message spoken aloud.",
+        description: "Speak directly to the user. Use this tool to communicate audibly with the user - they will hear your message spoken aloud.",
         inputSchema: {
             text: z.string().describe("What you want to say to the user. This will be spoken out loud."),
             speed: z.number().optional().describe("How fast to speak (0.1 = very slow, 1.0 = normal, 3.0 = very fast). Default is 1.0.")
