@@ -2,6 +2,7 @@
   "name": "say-mcp",
   "version": "1.0.0",
   "description": "MCP server that provides text-to-speech functionality for AI agents",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.1",
-    "say": "^0.16.0"
+    "say": "^0.16.0",
+    "zod": "^3.25.76"
   }
 }
