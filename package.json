@@ -1,10 +1,13 @@
 {
   "name": "say-mcp",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "MCP server that provides text-to-speech functionality for AI agents",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "say-mcp": "dist/mcp.js"
+  },
   "files": [
     "dist/**/*"
   ],
@@ -13,7 +16,8 @@
     "dev": "tsc --watch",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "mcp",
