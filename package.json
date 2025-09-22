@@ -29,6 +29,15 @@
   ],
   "author": "Taavi Laanemaa <taavi.laanemaa@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/tlaanemaa/say-mcp#readme",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlaanemaa/say-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlaanemaa/say-mcp/issues"
+  },
   "devDependencies": {
     "@types/node": "^18.0.0",
     "typescript": "^5.9.2"
