@@ -13,7 +13,7 @@ Add to your Cursor MCP configuration:
   "mcpServers": {
     "say": {
       "command": "npx",
-      "args": ["-y", "say-mcp"]
+      "args": ["-y", "say-mcp@latest"]
     }
   }
 }
